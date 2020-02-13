@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+
+  rotunda-api:
+      image: rotunda-api
+      container_name: rotunda-api
+      build: ./
+      restart: always
+      ports:
+        - 3000:3000
+      expose:
+        - 3000
