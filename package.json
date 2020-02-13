@@ -1,0 +1,25 @@
+{
+  "name": "rotunda-api",
+  "description": "URL Parser, Logger Email Sender & Zoo Modeling APIs exercises on Javascript",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Amaterazu7/Rotunda-API.git"
+  },
+  "author": "targaryen",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11",
+    "lodash": "^4.17.15",
+    "uuid": "^3.3.2"
+  }
+}
